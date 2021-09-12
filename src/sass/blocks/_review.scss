@@ -1,0 +1,36 @@
+.review {
+    min-height: 920px;
+    padding-bottom: 48px;
+    &__client {
+        display: flex;
+        margin-top: 60px;        
+        }
+    &__photo {
+        display: block;
+        margin-right: 60px;
+        img {
+            border-radius: 100%;
+            max-width: 169px;
+            max-height: 169px;
+        }        
+    }
+     &__name {
+        font-weight: bold;
+        font-size: 18px;
+        color: #0D0D0D;
+    }
+    &__stage {
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+    } 
+    &__text {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 22px;
+        color: #0D0D0D;
+        margin-top: 10px;
+        padding-right: 20px;
+
+    }  
+}
